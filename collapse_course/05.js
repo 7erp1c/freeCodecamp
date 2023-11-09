@@ -18,3 +18,7 @@ console.log(myStr); // Output: This is the start. This is the end.
 
 let myStr = "This is the first sentence. ";
 myStr += "This is the second sentence.";
+
+// Only change code below this line
+const myName = "My name is ";
+const myStr = "My name is "+ myName +"and I am well!";
