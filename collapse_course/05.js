@@ -13,12 +13,19 @@
 // Build myStr from the strings This is the start. and This is the end. using the + operator. Be sure to include a space between the two strings.
 
 
-const myStr = "This is the start."+"This is the end."; // Change this line
-console.log(myStr); // Output: This is the start. This is the end.
+const myStr55 = "This is the start."+"This is the end."; // Change this line
+console.log(myStr55); // Output: This is the start. This is the end.
 
-let myStr = "This is the first sentence. ";
-myStr += "This is the second sentence.";
+let myStr2 = "This is the first sentence. ";
+myStr2 += "This is the second sentence.";
 
 // Only change code below this line
 const myName = "My name is ";
 const myStr = "My name is "+ myName +"and I am well!";
+
+// Change code below this line
+//Just as we can build a string over multiple lines out of string literals,
+//we can also append variables to a string using the plus equals (+=) operator.
+const someAdjective = "Good day. ";
+let myStr1 = "Learning to code is ";
+myStr1 += someAdjective;
