@@ -40,3 +40,7 @@ const thirdLetterOfLastName = lastName[2]; // Change this line
 const lastName = "Lovelace";
 // Only change code below this line
 const lastLetterOfLastName = lastName[lastName.length - 1]; // Change this line
+
+const firstName1 = "Augusta";
+const thirdToLastLetter = firstName1[firstName1.length - 3];
+console.log(thirdToLastLetter);
