@@ -16,16 +16,27 @@ lastNameLength = lastName.length;
 //const firstName = "Charles";
 //const firstLetter = firstName[0];
 //firstLetter would have a value of the string C.
-
+//_________________________________________________
 // Setup
 let firstLetterOfLastName = "";
 const lastName1 = "Lovelace";
 // Only change code below this line
 firstLetterOfLastName = lastName1[0]; // Change this line
+
+
 //Use Bracket Notation to Find the Nth Character in a String
 //Let's try to set thirdLetterOfLastName to equal the third letter
 // of the lastName variable using bracket notation.
 // Setup
+//____________________________________________________
 const lastName = "Lovelace";
 // Only change code below this line
 const thirdLetterOfLastName = lastName[2]; // Change this line
+
+
+//Use Bracket Notation to Find the Last Character in a String
+//____________________________________________________
+// Setup
+const lastName = "Lovelace";
+// Only change code below this line
+const lastLetterOfLastName = lastName[lastName.length - 1]; // Change this line
