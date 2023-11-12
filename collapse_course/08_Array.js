@@ -22,3 +22,7 @@ console.log(removedFromMyArray4);
 //Manipulate Arrays With shift Method
 const myArray5 = [["John", 23], ["dog", 3]];
 const removedFromMyArray5 = myArray5.shift();
+//Manipulate Arrays With unshift Method
+const myArray6 = [["John", 23], ["dog", 3]];
+myArray6.shift();
+myArray6.unshift(["Paul", 35]);
