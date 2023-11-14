@@ -1,13 +1,18 @@
 function trueOrFalse(wasThatTrue) {
-    // Only change code below this line
     if(wasThatTrue){
         return "Yes, that was true";
     }
     {
         return "No, that was false";
     }
-
-
-    // Only change code above this line
-
 }
+
+// Setup
+function testStrict(val) {
+    if (val === 7) { //оператор строгого равенства, а оператор == может сравнивать и число и строку
+        // по значению 3 == "3" true
+        return "Equal";
+    }
+    return "Not Equal";
+}
+testStrict(10);
