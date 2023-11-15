@@ -10,9 +10,17 @@ function trueOrFalse(wasThatTrue) {
 // Setup
 function testStrict(val) {
     if (val === 7) { //оператор строгого равенства, а оператор == может сравнивать и число и строку
-        // по значению 3 == "3" true
+        // по значению 3 == "3" true; != неравен и преобразует типы данных, !== строго не равен
         return "Equal";
     }
     return "Not Equal";
 }
 testStrict(10);
+//Comparisons with the Logical And Operator
+function testLogicalAnd(val) {
+    if (val <=50 && val>=25) {
+        return "Yes";
+    }
+    return "No";
+}
+testLogicalAnd(10);
