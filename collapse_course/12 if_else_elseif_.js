@@ -71,3 +71,23 @@ function testLogicalOr(val5) {
     return "Inside";
 }
 testLogicalOr(15);
+//😅😅😅
+//Chaining If Else Statements
+function testSize(num1) {
+    if (num1 < 5)  {return "Tiny";}
+    else if (num1 < 10){
+        return "Small";
+    }
+    else if (num1 < 15){
+        return "Medium";
+    }
+    else if (num1 < 20){
+        return "Large";
+    }
+    else if (num1 >= 20){
+        return "Huge";
+    }
+    else
+        return "Change Me";
+}
+testSize(7);
