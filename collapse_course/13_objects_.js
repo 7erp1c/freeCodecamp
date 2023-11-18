@@ -38,7 +38,7 @@ const testObj2 = {
 const playerNumber = 16;  // Change this line
 const player = testObj2[playerNumber];   // Change this line
 
-//🎁🎁🎁 Изменение значения объекта через переменную.
+//🎁🎁🎁 Изменение значения свойства объекта через переменную.
 const myDog1 = {
     "name": "Coder",
     "legs": 4,
@@ -46,3 +46,13 @@ const myDog1 = {
     "friends": ["freeCodeCamp Campers"]
 };
 myDog1.name = "Happy Coder";
+
+//🎭🎭🎭 Добавление нового свойства объекта через переменную
+const myDog2 = {
+    "name": "Happy Coder",
+    "legs": 4,
+    "tails": 1,
+    "friends": ["freeCodeCamp Campers"]
+};
+myDog2.bark = "bow-wow";
+
