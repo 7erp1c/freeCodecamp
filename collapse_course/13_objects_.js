@@ -56,3 +56,12 @@ const myDog2 = {
 };
 myDog2.bark = "bow-wow";
 
+//🥼🥼🥼 Удаление свойства объекта через переменную
+const myDog3 = {
+    "name": "Happy Coder",
+    "legs": 4,
+    "tails": 1,
+    "friends": ["freeCodeCamp Campers"],
+    "bark": "woof"
+};
+delete myDog3.tails;
