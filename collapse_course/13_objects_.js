@@ -93,7 +93,7 @@ function checkObj(obj, checkProp) {
     }
     // Only change code above this line
 }
-//🎈🎈🎈 Создаём сложный объект
+//🎈🎈🎈 Создаём вложенный объект
 const myMusic = [
     {
         "artist": "Billy Joel",
@@ -119,3 +119,16 @@ const myMusic = [
         "gold": true
     }
 ];
+//✨✨✨✨ Назначить const gloveBoxContents = "maps"
+const myStorage = {
+    "car": {
+        "inside": {
+            "glove box": "maps",
+            "passenger seat": "crumbs"
+        },
+        "outside": {
+            "trunk": "jack"
+        }
+    }
+};
+const gloveBoxContents = myStorage.car.inside["glove box"];
