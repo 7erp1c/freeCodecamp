@@ -84,14 +84,12 @@ function phoneticLookup(val) {
 phoneticLookup("charlie");
 //🎗🎗🎗🎗🎈🎈🎈🎈Проверка объекта на элементы с помощью .hasOwnProperty🧧🧧🧧🧧🧧
 function checkObj(obj, checkProp) {
-    // Only change code below this line
     if (obj.hasOwnProperty(checkProp))
     {
         return obj[checkProp];
     } else {
         return "Not Found";
     }
-    // Only change code above this line
 }
 //🎈🎈🎈 Создаём вложенный объект
 const myMusic = [
@@ -105,8 +103,7 @@ const myMusic = [
             "LP"
         ],
         "gold": true
-    }
-    ,
+    },
     {
         "artist": "Daft Punk",
         "title": "Homework",
@@ -132,3 +129,19 @@ const myStorage = {
     }
 };
 const gloveBoxContents = myStorage.car.inside["glove box"];
+//🎁🎁🎁🎁 Используя точечну и скобочную нотацию присвойте значение второго элемента из второго массива и т.д.
+const myPlants = [
+    {
+        type: "flowers",
+        list: [
+            "rose",
+            "tulip",
+            "dandelion"
+        ]}, {
+        type:"trees",
+        list: [
+            "fir",
+            "pine",
+            "birch"
+        ]}];
+const secondTree = myPlants[1].list[1];
