@@ -15,9 +15,15 @@ for (let i = 1; i < 6 ; i++){
 const myArray3 = [];
 for(let i = 1;i<10; i+=2) {
     myArray3.push(i);
-}
+} console.log(myArray3);
 //🎆🎆🎆🎆 Вывести массив нечетных чисел от 9 до 1 с помощью цикла For:
 const myArray4= [];
 for(let i = 9; i>0;i-=2){
     myArray4.push(i);
-}
+} console.log(myArray4);
+//🎇🎇🎇 Сложить элементы массива с помощью цикла For:
+const myArr5 = [2, 3, 4, 5, 6];
+let total = 0;
+for (let i = 0;i<myArr5.length; i++){
+    total += myArr5[i];
+} console.log(total);
