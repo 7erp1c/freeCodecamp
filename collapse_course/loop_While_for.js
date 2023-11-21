@@ -11,3 +11,8 @@ const myArray1 = [];
 for (let i = 1; i < 6 ; i++){
     myArray1.push(i);
 } console.log(myArray1);
+//🎍🎋🎄Вывести массив нечетных числе от 1 до 9 с помощью цикла For:
+const myArray3 = [];
+for(let i = 1;i<10; i+=2) {
+    myArray3.push(i);
+}
