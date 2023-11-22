@@ -23,3 +23,5 @@ function sum(arr, n) {
     }
     // Only change code above this line
 }
+console.log(sum([1], -1))
+console.log(sum([2, 3, 4], 1))
