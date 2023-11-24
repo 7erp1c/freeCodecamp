@@ -19,3 +19,10 @@ function checkEqual(a, b) {
     return a===b ? 'Equal' : 'Not Equal';
 }
 console.log(checkEqual(10, 10));
+//🎈🎈🎈  Если несколько условий:
+function checkSign(num) {
+    return (num>0) ? "positive"
+        : (num===0) ? "zero"
+            : "negative";
+}
+checkSign(10);
