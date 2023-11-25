@@ -1,4 +1,4 @@
-// В JS часто не требуются давать имена функциям, becouse эти функции передают аргумент другой функции.
+// В JS зачастую не требуются давать имена функциям, becouse эти функции передают аргумент другой функции.
 //Поэтому мы создаём встроенные функции, без имени т.к. их больше ни где не используем.
 var magic = function() {
     return new Date();
@@ -20,3 +20,7 @@ console.log(multiplier(5.9,5))
 // Упростим функцию которая объединяет 2 массива.
 const myConcat = (arr1, arr2) => arr1.concat(arr2);
 console.log(myConcat([1, 2], [3, 4, 5]));
+// Можно передать в параметры, значение по умолчанию:
+const increment = (number,value = 1) => number + value;
+console.log(increment(5));
+console.log(increment(6,6));
