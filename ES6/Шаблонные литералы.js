@@ -30,7 +30,7 @@ const getMousePosition1 = (x,y)=>({x,y}) //сократили одинаковы
 };
 const person1 = {
     name: "Taylor",
-    sayHello() {
+    sayHello() { //теперь параметр функции передаётся сразу к свойству объекта, удаляется " : ";
         return `Hello! My name is ${this.name}.`;
     }
 };
