@@ -9,12 +9,16 @@ function makeList(arr) {
         for (let i = 0; i < arr.length; i+=1){
             failureItems.push(`<li class="text-warning">${arr[i]}</li>`)
     }
-
-
-    // Only change code above this line
-
     return failureItems;
 }
-
 const failuresList = makeList(result.failure);
 console.log(failuresList)
+
+//
+const getMousePosition = (x, y) => ({
+    x: x,
+    y: y
+}); //Функция возвращает объект содержащий два свойства:
+//Можем записать  ее так:
+const getMousePosition1 = (x,y)=>({x,y}) //сократили одинаковые выражения выражение х:х у:у;
+
