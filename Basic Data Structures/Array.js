@@ -1,0 +1,1 @@
+let yourArray = [false,'some',2,undefined,66]; //1
