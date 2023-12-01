@@ -1,10 +1,10 @@
-const reverseSeq = n => {
+/*const reverseSeq = n => {
     let arr = [];
     for (let i = n; i >= 1; i-- ){
         arr.push(i);
     }
     return arr;
-}; console.log(reverseSeq(3));
+}; console.log(reverseSeq(3));*/
 /*
 let alphabet = "abcde";
 let len = alphabet.length;
@@ -18,7 +18,7 @@ for (let k = 0; k < len; k++) {//good
     console.log(alphabet[k]);
 }*/
 
-function zeroArray(m, n) {
+/*function zeroArray(m, n) {
     // Creates a 2-D array with m rows and n columns of zeroes
     let newArray = [];
 
@@ -37,4 +37,16 @@ function zeroArray(m, n) {
 }
 
 let matrix = zeroArray(3, 2);
-console.log(matrix);
+console.log(matrix);*/
+
+const areaOrPerimeter = function() {
+    let l = 3;
+    let w = 5;
+
+    if (l !== w) {
+        return l + w + l + w;// Return your answer
+    } else {
+        return l * w;
+    }
+}
+    console.log(areaOrPerimeter());
