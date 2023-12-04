@@ -42,3 +42,18 @@ let userActivity = {
 };
 userActivity.data.online = 45;
 console.log(userActivity);
+
+//Передача в функцию:
+let foods1 = {
+    apples: 25,
+    oranges: 32,
+    plums: 28,
+    bananas: 13,
+    grapes: 35,
+    strawberries: 27
+};
+function checkInventory(scannedItem) {
+    let inv1 = foods1[scannedItem];
+    return inv1;
+}
+console.log(checkInventory("apples"));
