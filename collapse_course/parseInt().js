@@ -7,4 +7,4 @@ console.log(convertToInteger("56"));
 function convertToInteger1(str,) {
     return parseInt(str, 2);
 }
-console.log(convertToInteger1("10011"));
+console.log(convertToInteger1("100111"));
