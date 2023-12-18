@@ -46,3 +46,13 @@ function Dog(name,color) {
         this.numLegs = 4
 }
 let terrier = new Dog ('Gucci','black');
+
+//Следующий конcтруктор определяет два свойства name и numLegs, они являются собственными свойствами,
+//т.к. определены в объекте экземпляра. Это значит, что duck и canary своя отдельная копия этих
+// свойств.
+function Bird3(name) {
+    this.name = name;
+    this.numLegs = 2;
+}
+let duck = new Bird3("Donald");
+let canary = new Bird3("Donald");
