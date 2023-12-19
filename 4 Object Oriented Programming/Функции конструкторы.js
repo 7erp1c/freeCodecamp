@@ -56,3 +56,4 @@ function Bird3(name) {
 }
 let duck = new Bird3("Donald");
 let canary = new Bird3("Donald");
+
