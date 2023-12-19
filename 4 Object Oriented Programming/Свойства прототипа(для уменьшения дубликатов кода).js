@@ -6,7 +6,7 @@ function Bird(name) {
 }
 let duck = new Bird("Donald");
 let canary = new Bird("Donald");
-//У всех копий будет одинаковый numLegs;
+//У всех экземпляров будет одинаковый numLegs;
 //Bird.prototype.numLegs = 2;
 console.log(duck.numLegs);
 console.log(canary.numLegs);
