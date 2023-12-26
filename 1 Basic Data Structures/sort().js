@@ -37,3 +37,15 @@ function alphabeticalOrder(arr) {
 }
 
 console.log(alphabeticalOrder(["a", "d", "c", "a", "z", "g"]));
+
+// Не изменяя массив:
+const globalArray = [5, 6, 3, 2, 9];
+
+function nonMutatingSort(arr) {
+    // Only change code below this line
+    return arr.slice().sort((a,b)=> a-b);
+
+    // Only change code above this line
+}
+
+console.log(nonMutatingSort([1, 30, 4, 21, 100000]));
