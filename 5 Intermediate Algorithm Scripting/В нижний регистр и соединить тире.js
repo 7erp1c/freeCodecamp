@@ -1,5 +1,13 @@
 function spinalCase(str) {
-    return str.toLowerCase().split(' ').join('-');
+    // Replace low-upper case to low-space-uppercase
+    str = str.replace(/([a-z])([A-Z])/g, "$1 $2");
+    // Split on whitespace and underscores and join with dash
+    console.log(str);
+    return str
+        .toLowerCase()
+        .split(/[_ ]+/)
+        .join("-");
 }
 
-console.log(spinalCase('This Is Spinal Tap'));
+// test here
+console.log(spinalCase("Teletubbies say Eh-oh"));
